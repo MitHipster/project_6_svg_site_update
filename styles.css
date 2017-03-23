@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.png') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
 }
 
 #container {
@@ -30,6 +30,11 @@ a {
     color: #111;
   }
 
+svg {
+  width: 140px;
+  height: 120px;
+}
+
 header {
   padding-top: 10px;
 }
@@ -48,6 +53,10 @@ header {
 
   header h1 {
     line-height: 1em;
+  }
+
+  header #company-header {
+    display: none;
   }
 
 main {
@@ -79,4 +88,13 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+@media (max-width: 425px) {
+  #logo-name {
+    display: none;
+  }
+  header #company-header {
+    display: block;
+  }
 }
