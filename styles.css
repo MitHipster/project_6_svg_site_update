@@ -30,7 +30,7 @@ a {
     color: #111;
   }
 
-svg {
+svg.company-logo {
   width: 140px;
   height: 120px;
 }
@@ -68,16 +68,11 @@ nav li:hover {
  transform: scale(1.2);
 }
 
-.menu-icons .st3 {
-  fill: #39add1;
-}
+.menu-link-st0{fill:#39add1;}
+.menu-links:hover .menu-link-st0{fill:#ba8058;}
 
 .menu-links:hover {
   color: #844b24;
-}
-
-.menu-links:hover .st3 {
-  fill: #ba8058;
 }
 
 main {
@@ -104,22 +99,61 @@ main {
         margin-right: 0;
       }
 
-#logo-circle .st0 {
-  fill:#ba8058;
-}
+.logo-st0{fill:#ba8058;}
+.logo-st1{fill:#eaaa7f;}
+.logo-st2{fill:#f4c6a6;}
 
-#logo-name .st1 {
-  fill:#eaaa7f;
-}
-
-#logo-paw-print .st2 {
-  fill:#f4c6a6;
-}
-
-.dogs {
+svg.dogs {
   width: 170px;
   height: 170px;
+  margin-bottom: 10px;
 }
+
+.dogs .red-st0{fill:#ba8058;}
+.dogs .red-st1{fill:#fbfeff;}
+.dogs .red-st2{fill:#2d3339;}
+.dogs .red-st3{fill:#eaaa7f;}
+
+.red .red-st0 {
+  transition: fill .3s ease-in;
+}
+
+.red:hover .red-st0{fill:#d68058;}
+
+.dogs .fawn-st0{fill:#eaaa7f;}
+.dogs .fawn-st1{fill:#fbfeff;}
+.dogs .fawn-st2{fill:#2d3339;}
+.dogs .fawn-st3{fill:#f4c6a6;}
+
+.fawn .fawn-st0 {
+  transition: fill .3s ease-in;
+}
+
+.fawn:hover .fawn-st0{fill:#eabc7f;}
+
+.dogs .sable-st0{fill:#844b24;}
+.dogs .sable-st1{fill:#fbfeff;}
+.dogs .sable-st2{fill:#2d3339;}
+.dogs .sable-st3{fill:#ba8058;}
+
+.sable .sable-st0 {
+  transition: fill .3s ease-in;
+}
+
+.sable:hover .sable-st0{fill:#5c3419;}
+
+.dogs .black-st0{fill:#ba8058;}
+.dogs .black-st1{fill:#52595f;}
+.dogs .black-st2{fill:#fbfeff;}
+.dogs .black-st3{fill:#2d3339;}
+
+.black .black-st0,
+.black .black-st1 {
+  transition: fill .3s ease-in;
+}
+
+.black:hover .black-st0{fill:#c99b7c;}
+.black:hover .black-st1{fill:#3a3f44;}
 
 footer {
   width: 100%;
