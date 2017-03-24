@@ -60,6 +60,26 @@ header {
     display: none;
   }
 
+nav li {
+  transition: transform .3s ease-in;
+}
+
+nav li:hover {
+ transform: scale(1.2);
+}
+
+.menu-icons .st3 {
+  fill: #39add1;
+}
+
+.menu-links:hover {
+  color: #844b24;
+}
+
+.menu-links:hover .st3 {
+  fill: #ba8058;
+}
+
 main {
   padding-top: 50px;
 }
@@ -83,6 +103,19 @@ main {
       main li:last-child {
         margin-right: 0;
       }
+
+#logo-circle .st0 {
+  fill:#ba8058;
+}
+
+#logo-name .st1 {
+  fill:#eaaa7f;
+}
+
+#logo-paw-print .st2 {
+  fill:#f4c6a6;
+}
+
 .dogs {
   width: 170px;
   height: 170px;
@@ -95,7 +128,7 @@ footer {
   color: #ba8058;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 424px) {
   #logo-name {
     display: none;
   }
