@@ -47,8 +47,9 @@ header {
     margin-right: 20px;
   }
 
-  header nav ul li a img {
-    height: 13px;
+  header nav ul li a svg {
+    width: 15px;
+    height: 15px;
   }
 
   header h1 {
