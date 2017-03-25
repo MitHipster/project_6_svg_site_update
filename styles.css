@@ -75,6 +75,19 @@ nav li:hover {
   color: #844b24;
 }
 
+.company-logo {
+  overflow: visible;
+}
+
+.company-logo #logo-name {
+  transition: transform .5s ease-out;
+  transform-origin: bottom;
+}
+
+.company-logo:hover #logo-name {
+  transform: scale(1.2);
+}
+
 main {
   padding-top: 50px;
 }
@@ -109,51 +122,30 @@ svg.dogs {
   margin-bottom: 10px;
 }
 
-.dogs .red-st0{fill:#ba8058;}
+/*.dogs .red-st0{fill:#ba8058;} Original color*/
+.dogs .red-st0{fill:#d68058;} /* New color */
 .dogs .red-st1{fill:#fbfeff;}
 .dogs .red-st2{fill:#2d3339;}
 .dogs .red-st3{fill:#eaaa7f;}
 
-.red .red-st0 {
-  transition: fill .3s ease-in;
-}
-
-.red:hover .red-st0{fill:#d68058;}
-
-.dogs .fawn-st0{fill:#eaaa7f;}
+/*.dogs .fawn-st0{fill:#eaaa7f;} Original color*/
+.dogs .fawn-st0{fill:#eabc7f;} /* New color */
 .dogs .fawn-st1{fill:#fbfeff;}
 .dogs .fawn-st2{fill:#2d3339;}
 .dogs .fawn-st3{fill:#f4c6a6;}
 
-.fawn .fawn-st0 {
-  transition: fill .3s ease-in;
-}
-
-.fawn:hover .fawn-st0{fill:#eabc7f;}
-
-.dogs .sable-st0{fill:#844b24;}
+/*.dogs .sable-st0{fill:#844b24;} Original color*/
+.dogs .sable-st0{fill:#5c3419;} /* New color */
 .dogs .sable-st1{fill:#fbfeff;}
 .dogs .sable-st2{fill:#2d3339;}
 .dogs .sable-st3{fill:#ba8058;}
 
-.sable .sable-st0 {
-  transition: fill .3s ease-in;
-}
-
-.sable:hover .sable-st0{fill:#5c3419;}
-
-.dogs .black-st0{fill:#ba8058;}
-.dogs .black-st1{fill:#52595f;}
+/*.dogs .black-st0{fill:#ba8058;} Original color*/
+.dogs .black-st0{fill:#3a3f44;} /* New color */
+/*.dogs .black-st1{fill:#52595f;} Original color*/
+.dogs .black-st1{fill:#c99b7c;} /* New color */
 .dogs .black-st2{fill:#fbfeff;}
 .dogs .black-st3{fill:#2d3339;}
-
-.black .black-st0,
-.black .black-st1 {
-  transition: fill .3s ease-in;
-}
-
-.black:hover .black-st0{fill:#c99b7c;}
-.black:hover .black-st1{fill:#3a3f44;}
 
 footer {
   width: 100%;
@@ -170,3 +162,5 @@ footer {
     display: block;
   }
 }
+
+
